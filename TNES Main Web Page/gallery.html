@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery — New Era Socials</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="page-transition" data-page="gallery" style="min-height: 100vh; display: flex; flex-direction: column">
+    <div id="header-placeholder"></div>
+
+    <main style="flex: 1">
+      <div class="page-title">
+        <div class="container">
+          <h1 class="reveal">Gallery</h1>
+          <p class="reveal"> Highlights of the recent event </p>
+        </div>
+      </div>
+
+      <section class="section gallery-marquee-section" aria-label="Photo gallery collage">
+        <div class="gallery-marquee" id="gallery-marquee-root">
+          <div class="gallery-marquee__fade"></div>
+          <div class="gallery-marquee__track-wrap">
+            <div class="gallery-marquee__track" id="gallery-marquee-track">
+              <div class="gallery-marquee__collage">
+                <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=900&q=80" alt="Community volunteers at an outdoor event" width="380" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1469571486292-0ea58a3f068b?w=900&q=80" alt="Group volunteering in the park" width="420" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=900&q=80" alt="Hands together in unity" width="360" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1531206715518-11dd2a5c08de?w=900&q=80" alt="Team celebration after a project" width="400" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=900&q=80" alt="Neighborhood gathering" width="380" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=900&q=80" alt="Planning session at a table" width="440" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=900&q=80" alt="Friends volunteering together" width="370" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=900&q=80" alt="Mentoring and learning" width="410" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=900&q=80" alt="Volunteer coordination" width="390" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=900&q=80" alt="Food drive sorting" width="400" height="280" loading="lazy" />
+              </div>
+              <div class="gallery-marquee__collage" aria-hidden="true">
+                <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=900&q=80" alt="" width="380" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1469571486292-0ea58a3f068b?w=900&q=80" alt="" width="420" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=900&q=80" alt="" width="360" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1531206715518-11dd2a5c08de?w=900&q=80" alt="" width="400" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=900&q=80" alt="" width="380" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=900&q=80" alt="" width="440" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=900&q=80" alt="" width="370" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=900&q=80" alt="" width="410" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=900&q=80" alt="" width="390" height="280" loading="lazy" />
+                <img src="https://images.unsplash.com/photo-1593113598332-cd288d649433?w=900&q=80" alt="" width="400" height="280" loading="lazy" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt gallery-events-section" id="gallery-events">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Events</h2>
+            <p>Upcoming and recent highlights—date, time, and a glimpse of each gathering.</p>
+          </div>
+          <div class="gallery-events-grid">
+            <article class="gallery-event-card reveal">
+              <div class="gallery-event-card__media">
+                <img src="https://images.unsplash.com/photo-1464207687429-7505649dae38?w=800&q=80" alt="Volunteers outdoors for a clean-up" width="800" height="500" loading="lazy" />
+              </div>
+              <div class="gallery-event-card__body">
+                <h3 class="gallery-event-card__title">Spring neighborhood clean-up</h3>
+                <p class="gallery-event-card__meta">
+                  <time datetime="2026-04-12">Saturday, 12 April 2026</time>
+                  <span class="gallery-event-card__time">9:00 a.m. – 1:00 p.m.</span>
+                </p>
+                <p class="gallery-event-card__desc">Park trails, playgrounds, and main street—volunteers of all ages welcome. Gear and snacks provided.</p>
+              </div>
+            </article>
+            <article class="gallery-event-card reveal">
+              <div class="gallery-event-card__media">
+                <img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800&q=80" alt="Community picnic in the park" width="800" height="500" loading="lazy" />
+              </div>
+              <div class="gallery-event-card__body">
+                <h3 class="gallery-event-card__title">Welcome picnic &amp; signup fair</h3>
+                <p class="gallery-event-card__meta">
+                  <time datetime="2026-04-26">Sunday, 26 April 2026</time>
+                  <span class="gallery-event-card__time">11:00 a.m. – 3:00 p.m.</span>
+                </p>
+                <p class="gallery-event-card__desc">Meet team leads, learn about roles, and enjoy live music with neighbors.</p>
+              </div>
+            </article>
+            <article class="gallery-event-card reveal">
+              <div class="gallery-event-card__media">
+                <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=80" alt="Group at a community festival" width="800" height="500" loading="lazy" />
+              </div>
+              <div class="gallery-event-card__body">
+                <h3 class="gallery-event-card__title">Youth mentorship mixer</h3>
+                <p class="gallery-event-card__meta">
+                  <time datetime="2026-05-08">Friday, 8 May 2026</time>
+                  <span class="gallery-event-card__time">5:30 p.m. – 8:00 p.m.</span>
+                </p>
+                <p class="gallery-event-card__desc">Pairing mentors with students; short talks, games, and dinner together.</p>
+              </div>
+            </article>
+            <article class="gallery-event-card reveal">
+              <div class="gallery-event-card__media">
+                <img src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=800&q=80" alt="Park and green space volunteering" width="800" height="500" loading="lazy" />
+              </div>
+              <div class="gallery-event-card__body">
+                <h3 class="gallery-event-card__title">Green spaces volunteer day</h3>
+                <p class="gallery-event-card__meta">
+                  <time datetime="2026-05-17">Sunday, 17 May 2026</time>
+                  <span class="gallery-event-card__time">8:30 a.m. – 12:30 p.m.</span>
+                </p>
+                <p class="gallery-event-card__desc">Tree care, native planting, and trail upkeep with city parks partners.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div
+      id="gallery-lightbox"
+      class="gallery-lightbox"
+      hidden
+      role="dialog"
+      aria-modal="true"
+      aria-label="Enlarged photo"
+    >
+      <div class="gallery-lightbox__backdrop"></div>
+      <div class="gallery-lightbox__frame">
+        <button type="button" class="gallery-lightbox__close" aria-label="Close">&times;</button>
+        <img class="gallery-lightbox__img" src="" alt="" width="1600" height="1200" decoding="async" />
+      </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
